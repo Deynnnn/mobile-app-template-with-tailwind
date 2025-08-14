@@ -18,7 +18,7 @@ export default function OnBoardingScreen() {
   const doneButton = ({...props}) => {
     return (
       <TouchableOpacity {...props} className='bg-purple-800 p-5 rounded-l-full'>
-        <Text className='text-white text-lg font-bold'>Done</Text>
+        <Text className='text-white text-lg font-bold'>Sign Up</Text>
       </TouchableOpacity>
     )
   }
