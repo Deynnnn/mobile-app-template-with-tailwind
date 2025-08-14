@@ -107,7 +107,7 @@ export default function OnBoardingScreen() {
                   loop
                   style={styles.lottie}
                 />
-                <Text className='text-7xl font-bold text-purple-700 text-center'>BUDDIQO</Text>
+                {/* <Text className='text-7xl font-bold text-purple-700 text-center'>BUDDIQO</Text> */}
               </>
             ),
             title: (

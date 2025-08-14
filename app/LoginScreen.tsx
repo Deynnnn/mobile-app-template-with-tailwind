@@ -61,7 +61,7 @@ export default function LoginScreen() {
           {/* Login Button */}
           <Pressable 
             className='w-full max-w-md bg-purple-800 p-4 mt-6 rounded-full items-center' 
-            onPress={() => navigation.navigate('HomeScreen')} // Change to your target screen
+            onPress={() => navigation.navigate('Onboarding')} // Change to your target screen
           >
             <Text className='text-white font-bold text-lg'>Login</Text>
           </Pressable>
